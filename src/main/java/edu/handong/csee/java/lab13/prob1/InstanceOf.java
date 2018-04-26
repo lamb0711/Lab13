@@ -4,6 +4,8 @@ public class InstanceOf {
 	
 	public static void WhatFriend(Friend friend) {
 		if(friend instanceof ClassFriend)
+			((ClassFriend)friend).classFriend();
+		
 			
 	}
 
