@@ -11,6 +11,8 @@ public class InstanceOf {
 		Friend friend1 = new Friend();
 		SchoolFriend friend2 = new SchoolFriend();
 		ClassFriend friend3 = new ClassFriend();
+		
+		InstanceOf.WhatFriend(friend1);
 
 	}
 
