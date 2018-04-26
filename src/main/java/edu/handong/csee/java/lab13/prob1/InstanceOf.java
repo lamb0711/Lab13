@@ -18,6 +18,10 @@ public class InstanceOf {
 		ClassFriend friend3 = new ClassFriend();
 		
 		InstanceOf.WhatFriend(friend1);
+		InstanceOf.WhatFriend(friend2);
+		InstanceOf.WhatFriend(friend3);
+		
+		
 
 	}
 
