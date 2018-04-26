@@ -7,6 +7,8 @@ public class InstanceOf {
 			((ClassFriend)friend).classFriend();
 		else if(friend instanceof SchoolFriend)
 				((SchoolFriend)friend).schoolFriend();
+		else
+			friend.JustFriend();
 			
 	}
 
