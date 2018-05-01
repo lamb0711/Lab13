@@ -8,7 +8,9 @@ public class Main {
 		double n1,n2;
 		Scanner keyboard = new Scanner(System.in);
 		
-		
+		System.out.print("Enter radius: ");
+		n1 = keyboard.nextDouble();
+		Circle c1 = new Circle(n1);
 
 	}
 
