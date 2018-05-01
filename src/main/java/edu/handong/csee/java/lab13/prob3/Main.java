@@ -11,6 +11,9 @@ public class Main {
 		System.out.print("Enter radius: ");
 		n1 = keyboard.nextDouble();
 		Circle c1 = new Circle(n1);
+		
+		System.out.println("Radius: " + c1.getRadius());
+		c1.display();
 
 	}
 
