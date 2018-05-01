@@ -8,7 +8,14 @@ public class Book {//Book class
 		this.bookName = name;//save input data to book name
 		idCount++;//add idCount integer variable
 		id = idCount;//save static idCount to id class variable
-		
+	}
+	
+	public String toString() {//toString method. it return String variable
+		return "\n\tId: " + id + "\n\tBook Name:" + bookName;//return this string with class variable
+	}
+	
+	public void show() {//show method. it print message to use to String method
+		System.out.println("<<<Book>>>" + this.toString());//print out string and toString method string
 	}
 
 }
