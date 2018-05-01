@@ -5,7 +5,9 @@ public class Book {//Book class
 	private String bookName;//save book name string
 	private int id;//save id number
 	public Book(String name) {//Book constructor. it accept book name string
-		
+		this.bookName = name;//save input data to book name
+		idCount++;//add idCount integer variable
+		id = idCount;//save static idCount to id class variable
 		
 	}
 
