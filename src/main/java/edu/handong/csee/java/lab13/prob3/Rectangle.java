@@ -9,4 +9,23 @@ public class Rectangle extends Shape{
 		this.width = width;
 	}
 	
+	public double area() {
+		return length*width;
+	}
+	
+	public double parameter() {
+		return 2*length+2*width;
+	}
+	
+	public double getLength() {
+		return length;
+	}
+	
+	public double getWidth() {
+		return width;
+	}
+
+	
+	
+	
 }
