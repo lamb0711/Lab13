@@ -6,8 +6,8 @@ public class Main {//Main class
 		Book book = new Book("Simple Book");//instantiation Book class and input data;
 		Science science = new Science("Hello Physics!", "ScienceWorld");//instantiation Science class and input data
 		History history1 = new History("what Is history?", "E.H.Carr");//instantiation History class and input data
-		book.show();//call method in book
-		science.show();//call method in science
-		history1.show();//call method in history1
+		book.showString();//call method in book
+		science.showString();//call method in science
+		history1.showString();//call method in history1
 	}
 }

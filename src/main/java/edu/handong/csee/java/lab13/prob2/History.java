@@ -8,11 +8,11 @@ public class History extends Book{//History class. it inheritance Book class
 		this.author = author;//input data save author of class variable
 	}
 
-	public String toStirng() {//toString method return String variable
+	public String printToString() {//toString method return String variable
 		return super.toString() + "\n\tAuthor: " + author;//return toString in Book class and this.author
 	}
 
-	public void show() {//print message method
-		System.out.println("<<<History>>>" + this.toStirng());//print message to use toString method
+	public void showString() {//print message method
+		System.out.println("<<<History>>>" + this.printToString());//print message to use toString method
 	}
 }

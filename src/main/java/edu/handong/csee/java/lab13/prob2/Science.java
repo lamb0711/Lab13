@@ -8,13 +8,13 @@ public class Science extends Book {//Science constructor. it inheritance Book cl
 		this.publisher = publisher;//input data save publisher of class variable
 	}
 
-	public String toString() {//toString method return String variable
+	public String printToString() {//toString method return String variable
 		return super.toString() + "\n\tPublisher: " + publisher;//return toString in Book class and this.publisher
 
 	}
 
-	public void show() {//show is print message method
-		System.out.println("<<<Sciendce>>>" + this.toString());//print message to use toString method
+	public void showString() {//show is print message method
+		System.out.println("<<<Sciendce>>>" + this.printToString());//print message to use toString method
 
 	}
 }
