@@ -1,5 +1,5 @@
 package edu.handong.csee.java.lab13.prob3;
 
-public class Shape {
+public abstract class Shape {
 
 }
