@@ -1,6 +1,6 @@
 package edu.handong.csee.java.lab13.prob3;//package name
 
-public class Rectangle extends Shape{//Rectangle class and Inheritance
+public class Rectangle extends Shape{//Rectangle class and Inheritance Shape abstract class
 	private double length = 0;//save length
 	private double width = 0;//save width
 

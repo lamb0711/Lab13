@@ -1,21 +1,22 @@
-package edu.handong.csee.java.lab13.prob3;
+package edu.handong.csee.java.lab13.prob3;//package name
 
-public class Circle extends Shape{
-	private double radius;
-	public Circle(double r) {
-		radius = r;
+public class Circle extends Shape{//Circle class and Inheritance Shape abstract class
+	private double radius;//save radius
+
+	public Circle(double r) {//Circle constructor
+		radius = r;//save input data in radius
 	}
-	
-	public double area() {
-		return Math.PI * Math.pow(radius, 2);
+
+	public double area() {//area method return double data
+		return Math.PI * Math.pow(radius, 2);//return area of Circle
 	}
-	
-	public double perimeter() {
-		return 2.0 * Math.PI*radius;
+
+	public double perimeter() {//perimeter method return double data
+		return 2.0 * Math.PI*radius;//return perimeter of Circle
 	}
-	
-	public double getRadius() {
-		return radius;
+
+	public double getRadius() {//getRadius method return radius
+		return radius;//return radius
 	}
 
 }
