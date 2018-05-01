@@ -6,4 +6,8 @@ public class Science extends Book {//Science class. it inheritance Book class
 		super(name);//name save to Book class
 		this.publisher = publisher;//input data save publisher of class variable
 	}
+	
+	public String toString() {//toString method return String variable
+		
+	}
 }
