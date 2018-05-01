@@ -13,7 +13,7 @@ public class Rectangle extends Shape{
 		return length*width;
 	}
 	
-	public double parameter() {
+	public double perimeter() {
 		return 2*length+2*width;
 	}
 	
@@ -25,7 +25,4 @@ public class Rectangle extends Shape{
 		return width;
 	}
 
-	
-	
-	
 }
