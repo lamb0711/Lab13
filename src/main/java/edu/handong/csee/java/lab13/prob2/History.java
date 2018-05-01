@@ -11,4 +11,8 @@ public class History extends Book{//History class. it inheritance Book class
 	public String toStirng() {//toString method return String variable
 		return super.toString() + "\n\tAuthor: " + author;//return toString in Book class and this.author
 	}
+	
+	public void show() {//print message method
+		System.out.println("<<<History>>>" + this.toStirng());//print message to use toString method
+	}
 }
