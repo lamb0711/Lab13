@@ -14,6 +14,15 @@ public class Main {
 		
 		System.out.println("Radius: " + c1.getRadius());
 		c1.display();
+		
+		System.out.print("Enter length and width: ");
+		n1 = keyboard.nextDouble();
+		n2 = keyboard.nextDouble();
+		Rectangle r1 = new Rectangle(n1,n2);
+		
+		System.out.println("Length: " + r1.getLength());
+		System.out.println("Width: " + r1.getWidth());
+		r1.display();
 
 	}
 

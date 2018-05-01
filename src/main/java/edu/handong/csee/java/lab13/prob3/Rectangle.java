@@ -4,7 +4,7 @@ public class Rectangle extends Shape{
 	private double length = 0;
 	private double width = 0;
 	
-	public void Rectangle(double length, double width ) {//Rectangle constructor
+	public Rectangle(double length, double width ) {//Rectangle constructor
 		this.length = length;
 		this.width = width;
 	}
