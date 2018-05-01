@@ -4,6 +4,7 @@ public class History extends Book{//History class. it inheritance Book class
 	private String author;//save author name
 	
 	public History(String name, String author) {//History constructor. it inheritance Book class
-		
+		super(name);////name save to Book class
+		this.author = author;//input data save author of class variable
 	}
 }
