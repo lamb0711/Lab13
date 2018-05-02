@@ -3,7 +3,7 @@ package edu.handong.csee.java.lab13.prob6;//package name
 public class UpPoint implements CapitalPrint{//UpPoint class it use interface CapitalPrint
 	private int x, y;//x and y integer variable
 
-	UpPoint(int x,int y){//constructor UpPoint
+	UpPoint(int x,int y){//constructor UpPoint class
 		this.x = x;//save input data to x
 		this.y = y;//save input data to y
 	}
