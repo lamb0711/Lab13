@@ -16,57 +16,60 @@ public class Prob5 {//Prob5 class
 			return true;//return true
 		else return false;//if count more than 4, implement it
 	}
-	
+
 	public static void main(String[] args) {//main method
 		int n1, n2 = 0;//save row and column variable
-		Scanner keyboard = new Scanner(System.in);
-		System.out.print("Enter row size(maximum 5):");
-		n1 = keyboard.nextInt();
-		System.out.print("Enter column size(maximum 5):");
-		n2 = keyboard.nextInt();
-		
-		int[][] m1 = new int [n1][n2];
-		
-		System.out.print("Enter row size(maximum 5):");
-		n1 = keyboard.nextInt();
-		System.out.print("Enter column size(maximum 5):");
-		n2 = keyboard.nextInt();
-		
-		int[][] m2 = new int [n1][n2];
-		
-		System.out.print("Enter List1: ");
-		for(int i =0; i< m1.length; i++) {
-			for(int j=0; j<m1[i].length; j++) {
-				m1[i][j] = keyboard.nextInt();
+		Scanner keyboard = new Scanner(System.in);//use scanner class to use keyboard 
+		System.out.print("Enter row size(maximum 5):");//print message to input row data on m1
+		n1 = keyboard.nextInt();//save input data in n1
+		System.out.print("Enter column size(maximum 5):");//print message to input column data on m1
+		n2 = keyboard.nextInt();//save input data in n2
+
+		int[][] m1 = new int [n1][n2];//make new array m1. this size is made of input data
+
+		System.out.print("Enter row size(maximum 5):");//print message to input row data on m2
+		n1 = keyboard.nextInt();//save input data in n1
+		System.out.print("Enter column size(maximum 5):");//print message to input column data on m2
+		n2 = keyboard.nextInt();//save input data in n2
+
+		int[][] m2 = new int [n1][n2];//make new array m2. this size is made of input data
+
+		System.out.print("Enter List1: ");//print message for input variables of m1
+		for(int i =0; i< m1.length; i++) {//loop during length of m1 row
+			for(int j=0; j<m1[i].length; j++) {//loop during length of m1 column
+				m1[i][j] = keyboard.nextInt();//save input data
 			}
-		 }
-		
-		System.out.print("Enter List2: ");
-		for(int i =0; i< m2.length; i++) {
-			for(int j=0; j<m2[i].length; j++)
-				m2[i][j] = keyboard.nextInt();
-		 }
-		
-		for(int i =0; i< m1.length; i++) {
-			for(int j=0; j<m1[i].length; j++)
-				System.out.print(m1[i][j]+" ");
-				System.out.println();
 		}
-		System.out.println();
-		
-		for(int i =0; i< m2.length; i++) {
-			for(int j=0; j<m2[i].length; j++)
-				System.out.print(m2[i][j]+" ");
-				System.out.println();
+
+		System.out.print("Enter List2: ");//print message for input variables of m2
+		for(int i =0; i< m2.length; i++) {//loop during length of m2 row
+			for(int j=0; j<m2[i].length; j++)//loop during length of m2 column
+				m2[i][j] = keyboard.nextInt();//save input data
 		}
-		
-		if(checkEquals(m1,m2))
-			System.out.println("The two arrays are approximately identical");
-		else
-			System.out.println("The two arrays are not identical");
-		
-		
+
+		for(int i =0; i< m1.length; i++) {//loop during length of m1 row
+			for(int j=0; j<m1[i].length; j++)//loop during length of m1 column
+				System.out.print(m1[i][j]+" ");//print variables row of m1
+			System.out.println();//print empty space for distinguish m1 row 
 		}
-			
+
+		System.out.println();//print empty space of distinguish m1 and m2
+
+		for(int i =0; i< m2.length; i++) {//loop during length of m2 row
+			for(int j=0; j<m2[i].length; j++)//loop during length of m2 column
+				System.out.print(m2[i][j]+" ");//print variables row of m2
+			System.out.println();//print empty space for distinguish m2 row 
+		}
+
+		System.out.println();//print empty space
+
+		if(checkEquals(m1,m2))//if checkEquals method return true, implement it
+			System.out.println("The two arrays are approximately identical");//print message to inform m1 and m2 are similar
+		else//if chechEquals method return false, implement it
+			System.out.println("The two arrays are not identical");//print message to inform m1 and m2 is not similar
+
+
+	}
+
 
 }
