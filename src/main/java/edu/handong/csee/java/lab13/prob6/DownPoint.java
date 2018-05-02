@@ -9,7 +9,7 @@ private int x, y;
 	}
 	
 	public String toString() {
-		return "x : " + x + "y : " + y;
+		return "x : " + x + " y : " + y;
 	}
 
 }
