@@ -8,7 +8,7 @@ public class UpPoint implements CapitalPrint{//UpPoint class it use interface Ca
 		this.y = y;//save input data to y
 	}
 
-	public String returnString() {//returnString class return String
+	public String toString() {//toString class return String
 		return "x : " + x + " y : " + y;//return string
 	}
 
