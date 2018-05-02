@@ -9,11 +9,11 @@ public class Rectangle extends Shape{//Rectangle class and Inheritance Shape abs
 		this.width = width;//save input data to width
 	}
 
-	public double area() {//area method return double data
+	public double calculateArea() {//area method return double data
 		return length*width;//return area of rectangle
 	}
 
-	public double perimeter() {//perimeter method return double data
+	public double calculatePerimeter() {//perimeter method return double data
 		return 2*length+2*width;//return perimeter of rectangle
 	}
 

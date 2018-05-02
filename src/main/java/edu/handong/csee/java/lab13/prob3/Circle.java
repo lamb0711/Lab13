@@ -7,11 +7,11 @@ public class Circle extends Shape{//Circle class and Inheritance Shape abstract 
 		radius = r;//save input data in radius
 	}
 
-	public double area() {//area method return double data
+	public double calculateArea() {//area method return double data
 		return Math.PI * Math.pow(radius, 2);//return area of Circle
 	}
 
-	public double perimeter() {//perimeter method return double data
+	public double calculatePerimeter() {//perimeter method return double data
 		return 2.0 * Math.PI*radius;//return perimeter of Circle
 	}
 
